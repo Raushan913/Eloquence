@@ -7,7 +7,7 @@ def main():
     st.title("GenAI Streamlit App")
 
     # Set the API key
-    os.environ['GOOGLE_API_KEY'] = "YOUR_API_KEY"
+    os.environ['GOOGLE_API_KEY'] = "AIzaSyANOucYCnqfWrVEYJkXbHxxMGQCNyBeXl4"
     genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
     # Create the GenAI model
