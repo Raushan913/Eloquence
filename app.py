@@ -19,7 +19,7 @@ def main():
             st.text_area("Previous Query:", value=text, height=200)
 
     # Set the API key
-    os.environ['GOOGLE_API_KEY'] = "AIzaSyANOucYCnqfWrVEYJkXbHxxMGQCNyBeXl4"
+    os.environ['GOOGLE_API_KEY'] = "YOUR_GOOGLE_API"
     genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
     # Create the GenAI model
